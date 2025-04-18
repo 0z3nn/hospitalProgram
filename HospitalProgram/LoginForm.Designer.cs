@@ -15,7 +15,7 @@
         {
             if (disposing && (components != null))
             {
-                components.Dispose();
+                components.Dispose(); //test push, will del later
             }
             base.Dispose(disposing);
         }
