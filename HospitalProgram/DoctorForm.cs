@@ -27,26 +27,6 @@ namespace HospitalProgram
             this.Hide();
             new LoginForm().Show();
         }
-
-        private void btnDashboard_Click(object sender, EventArgs e)
-        {
-            panelPatients.Visible = false;
-            panelRecords.Visible = false;
-            panelDashboard.Visible = true;
-        }
-
-        private void btnPatients_Click(object sender, EventArgs e)
-        {
-            panelRecords.Visible = false;
-            panelDashboard.Visible = false;
-            panelPatients.Visible = true;
-        }
-
-        private void btnRecords_Click(object sender, EventArgs e)
-        {
-            panelPatients.Visible = false;
-            panelDashboard.Visible = false;
-            panelRecords.Visible = true;
-        }
     }
 }
+ 

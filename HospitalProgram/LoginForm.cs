@@ -1,22 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace HospitalProgram
 {
     public partial class LoginForm : Form
     {
+        string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;"; 
         public LoginForm()
         {
             InitializeComponent();
-            string user = txtUser.Text;
-            string pass = txtPass.Text;
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -35,22 +29,39 @@ namespace HospitalProgram
             string user = txtUser.Text;
             string pass = txtPass.Text;
 
-            if (user == "doctor" && pass == "doctor123")
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                this.Hide();
-                new DoctorForm().Show();
+                conn.Open();
+                string query = "SELECT id FROM Users WHERE username = @username AND password = @password";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@username", user);
+                cmd.Parameters.AddWithValue("@password", pass);
+
+                object result = cmd.ExecuteScalar();
+
+                if (result != null)
+                {
+                    int userId = Convert.ToInt32(result);
+
+                    if (userId == 1 || userId == 2)
+                    {
+                        DoctorForm doc = new DoctorForm();
+                        doc.Show();
+                    }
+                    else
+                    {
+                        PatientForm patient = new PatientForm(userId);
+                        PatientAppointment patientAppointment = new PatientAppointment(userId);
+                        patient.Show();
+                    }
+
+                    this.Hide();
+                }
+                else
+                {
+                    labelInvalid.Text = "Invalid username or password";
+                }
             }
-            else if (user == "" && pass == "")
-            {
-                labelInvalid.Text = "Input your Username and Password!";
-                labelInvalid.Visible = true;
-            }
-            else
-            {
-                labelInvalid.Text = "Invalid Username or Password!";
-                labelInvalid.Visible = true;
-            }
-                
         }
     }
 }
