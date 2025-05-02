@@ -98,12 +98,12 @@
             // txtName
             // 
             this.txtName.AutoSize = true;
-            this.txtName.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Font = new System.Drawing.Font("Bahnschrift", 8F, System.Drawing.FontStyle.Bold);
             this.txtName.ForeColor = System.Drawing.Color.White;
-            this.txtName.Location = new System.Drawing.Point(40, 23);
+            this.txtName.Location = new System.Drawing.Point(60, 41);
             this.txtName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(37, 19);
+            this.txtName.Size = new System.Drawing.Size(25, 13);
             this.txtName.TabIndex = 1;
             this.txtName.Text = "null";
             this.txtName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -190,6 +190,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PatientForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PatientForm";
             this.Load += new System.EventHandler(this.PatientForm_Load);
             this.panel1.ResumeLayout(false);

@@ -16,7 +16,7 @@ namespace HospitalProgram
     public partial class PatientAppointment : UserControl
     {
         private int userId;
-        string connectionString = @"Data Source=DESKTOP-K0TECHD\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
+        string connectionString = @"Data Source=TOKYODIALECT\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
         public PatientAppointment(int userID)
         {
             InitializeComponent();

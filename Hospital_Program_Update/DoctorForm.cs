@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,7 +16,7 @@ namespace HospitalProgram
     public partial class DoctorForm : Form
     {
         private int userId;
-        string connectionString = @"Data Source=DESKTOP-K0TECHD\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
+        string connectionString = @"Data Source=TOKYODIALECT\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
         public DoctorForm(int userId)
         {
             InitializeComponent();
@@ -35,6 +36,7 @@ namespace HospitalProgram
 
         private void DoctorForm_Load(object sender, EventArgs e)
         {
+            btnExit.BringToFront();
             DoctorDashboard dash = new DoctorDashboard(userId);
             panelMain.Controls.Clear();
             panelMain.Controls.Add(dash);
@@ -64,6 +66,20 @@ namespace HospitalProgram
             DoctorDashboard dash = new DoctorDashboard(userId);
             panelMain.Controls.Clear();
             panelMain.Controls.Add(dash);
+        }
+
+        private void btnPatients_Click(object sender, EventArgs e)
+        {
+            DoctorPatients dp = new DoctorPatients(panelMain);
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(dp);
+        }
+
+        private void btnManage_Click(object sender, EventArgs e)
+        {
+            ManageDoctorAppointments mda = new ManageDoctorAppointments(userId);
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(mda);
         }
     }
 }

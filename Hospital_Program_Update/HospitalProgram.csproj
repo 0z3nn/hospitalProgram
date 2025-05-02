@@ -59,11 +59,17 @@
     <Compile Include="DoctorForm.Designer.cs">
       <DependentUpon>DoctorForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditAppointmentPatient.cs">
+    <Compile Include="DoctorPatients.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="EditAppointmentPatient.Designer.cs">
-      <DependentUpon>EditAppointmentPatient.cs</DependentUpon>
+    <Compile Include="DoctorPatients.Designer.cs">
+      <DependentUpon>DoctorPatients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPatientInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditPatientInformation.Designer.cs">
+      <DependentUpon>EditPatientInformation.cs</DependentUpon>
     </Compile>
     <Compile Include="InformationForm.cs">
       <SubType>Form</SubType>
@@ -88,6 +94,12 @@
     </Compile>
     <Compile Include="ManageAppointment.Designer.cs">
       <DependentUpon>ManageAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDoctorAppointments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManageDoctorAppointments.Designer.cs">
+      <DependentUpon>ManageDoctorAppointments.cs</DependentUpon>
     </Compile>
     <Compile Include="ManagePatientProfile.cs">
       <SubType>UserControl</SubType>
@@ -127,14 +139,23 @@
     <Compile Include="SetingsPatient.Designer.cs">
       <DependentUpon>SetingsPatient.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewPatientInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewPatientInformation.Designer.cs">
+      <DependentUpon>ViewPatientInformation.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DoctorDashboard.resx">
       <DependentUpon>DoctorDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorForm.resx">
       <DependentUpon>DoctorForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditAppointmentPatient.resx">
-      <DependentUpon>EditAppointmentPatient.cs</DependentUpon>
+    <EmbeddedResource Include="DoctorPatients.resx">
+      <DependentUpon>DoctorPatients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPatientInformation.resx">
+      <DependentUpon>EditPatientInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InformationForm.resx">
       <DependentUpon>InformationForm.cs</DependentUpon>
@@ -147,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManageAppointment.resx">
       <DependentUpon>ManageAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageDoctorAppointments.resx">
+      <DependentUpon>ManageDoctorAppointments.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManagePatientProfile.resx">
       <DependentUpon>ManagePatientProfile.cs</DependentUpon>
@@ -168,12 +192,16 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SetingsPatient.resx">
       <DependentUpon>SetingsPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPatientInformation.resx">
+      <DependentUpon>ViewPatientInformation.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -187,6 +215,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-close-exit-stop-button-icon-thumbnail.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

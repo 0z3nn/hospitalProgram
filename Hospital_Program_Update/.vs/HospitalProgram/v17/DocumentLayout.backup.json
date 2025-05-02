@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\keanu\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\",
+  "WorkspaceRootPath": "C:\\Users\\vicer\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|c:\\users\\keanu\\source\\repos\\hospitalprogram\\hospital_program_update\\doctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|c:\\users\\vicer\\source\\repos\\hospitalprogram\\hospital_program_update\\patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|c:\\users\\vicer\\source\\repos\\hospitalprogram\\hospital_program_update\\patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|c:\\users\\vicer\\source\\repos\\hospitalprogram\\hospital_program_update\\doctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:doctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|c:\\users\\keanu\\source\\repos\\hospitalprogram\\hospital_program_update\\doctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|c:\\users\\vicer\\source\\repos\\hospitalprogram\\hospital_program_update\\doctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:doctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|C:\\Users\\keanu\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,48 +26,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DoctorForm.cs",
-              "DocumentMoniker": "C:\\Users\\keanu\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\DoctorForm.cs",
-              "RelativeDocumentMoniker": "DoctorForm.cs",
-              "ToolTip": "C:\\Users\\keanu\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\DoctorForm.cs",
-              "RelativeToolTip": "DoctorForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Title": "PatientForm.cs",
+              "DocumentMoniker": "C:\\Users\\vicer\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\PatientForm.cs",
+              "RelativeDocumentMoniker": "PatientForm.cs",
+              "ToolTip": "C:\\Users\\vicer\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\PatientForm.cs",
+              "RelativeToolTip": "PatientForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T06:01:25.896Z",
+              "WhenOpened": "2025-05-02T11:33:10.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DoctorForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\keanu\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\DoctorForm.cs",
-              "RelativeDocumentMoniker": "DoctorForm.cs",
-              "ToolTip": "C:\\Users\\keanu\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\DoctorForm.cs [Design]",
-              "RelativeToolTip": "DoctorForm.cs [Design]",
+              "Title": "PatientForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vicer\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\PatientForm.cs",
+              "RelativeDocumentMoniker": "PatientForm.cs",
+              "ToolTip": "C:\\Users\\vicer\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\PatientForm.cs [Design]",
+              "RelativeToolTip": "PatientForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T10:40:44.897Z",
+              "WhenOpened": "2025-05-02T11:33:02.538Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PatientForm.cs",
-              "DocumentMoniker": "C:\\Users\\keanu\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\PatientForm.cs",
-              "RelativeDocumentMoniker": "PatientForm.cs",
-              "ToolTip": "C:\\Users\\keanu\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\PatientForm.cs",
-              "RelativeToolTip": "PatientForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
+              "Title": "DoctorForm.cs",
+              "DocumentMoniker": "C:\\Users\\vicer\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\DoctorForm.cs",
+              "RelativeDocumentMoniker": "DoctorForm.cs",
+              "ToolTip": "C:\\Users\\vicer\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\DoctorForm.cs",
+              "RelativeToolTip": "DoctorForm.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:15:23.185Z"
+              "WhenOpened": "2025-05-02T11:32:11.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoctorForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vicer\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\DoctorForm.cs",
+              "RelativeDocumentMoniker": "DoctorForm.cs",
+              "ToolTip": "C:\\Users\\vicer\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\DoctorForm.cs [Design]",
+              "RelativeToolTip": "DoctorForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:29:38.447Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

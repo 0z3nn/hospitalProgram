@@ -14,7 +14,7 @@ namespace HospitalProgram
     public partial class PatientForm : Form
     {
         private int userId;
-        string connectionString = @"Data Source=DESKTOP-K0TECHD\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
+        string connectionString = @"Data Source=TOKYODIALECT\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
         public PatientForm(int useryes)
         {
             InitializeComponent();
@@ -28,6 +28,7 @@ namespace HospitalProgram
 
         private void PatientForm_Load(object sender, EventArgs e)
         {
+            btnExit.BringToFront();
             PatientDashboard dash = new PatientDashboard(userId);
             panelMain.Controls.Clear();
             panelMain.Controls.Add(dash);

@@ -29,12 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panelMain = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnManage = new System.Windows.Forms.Button();
             this.btnPatients = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.Label();
+            this.panelMain = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panelMain.SuspendLayout();
@@ -43,6 +44,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Brown;
+            this.panel1.Controls.Add(this.btnManage);
             this.panel1.Controls.Add(this.btnPatients);
             this.panel1.Controls.Add(this.linkLabel1);
             this.panel1.Controls.Add(this.btnDashboard);
@@ -53,29 +55,24 @@
             this.panel1.Size = new System.Drawing.Size(155, 576);
             this.panel1.TabIndex = 0;
             // 
-            // panelMain
+            // btnManage
             // 
-            this.panelMain.BackColor = System.Drawing.Color.White;
-            this.panelMain.Controls.Add(this.button1);
-            this.panelMain.Location = new System.Drawing.Point(158, -2);
-            this.panelMain.Margin = new System.Windows.Forms.Padding(2);
-            this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(963, 564);
-            this.panelMain.TabIndex = 12;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Font = new System.Drawing.Font("Franklin Gothic Medium", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(909, 29);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(39, 45);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnManage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnManage.FlatAppearance.BorderSize = 0;
+            this.btnManage.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnManage.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight;
+            this.btnManage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnManage.Font = new System.Drawing.Font("Bahnschrift", 14F, System.Drawing.FontStyle.Bold);
+            this.btnManage.ForeColor = System.Drawing.Color.White;
+            this.btnManage.Location = new System.Drawing.Point(2, 342);
+            this.btnManage.Margin = new System.Windows.Forms.Padding(2);
+            this.btnManage.Name = "btnManage";
+            this.btnManage.Size = new System.Drawing.Size(156, 90);
+            this.btnManage.TabIndex = 5;
+            this.btnManage.Text = "MANAGE YOUR APPOINTMENTS";
+            this.btnManage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnManage.UseVisualStyleBackColor = true;
+            this.btnManage.Click += new System.EventHandler(this.btnManage_Click);
             // 
             // btnPatients
             // 
@@ -86,7 +83,7 @@
             this.btnPatients.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPatients.Font = new System.Drawing.Font("Bahnschrift", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPatients.ForeColor = System.Drawing.Color.White;
-            this.btnPatients.Location = new System.Drawing.Point(2, 188);
+            this.btnPatients.Location = new System.Drawing.Point(2, 218);
             this.btnPatients.Margin = new System.Windows.Forms.Padding(2);
             this.btnPatients.Name = "btnPatients";
             this.btnPatients.Size = new System.Drawing.Size(156, 90);
@@ -94,6 +91,7 @@
             this.btnPatients.Text = "PATIENTS";
             this.btnPatients.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPatients.UseVisualStyleBackColor = true;
+            this.btnPatients.Click += new System.EventHandler(this.btnPatients_Click);
             // 
             // linkLabel1
             // 
@@ -131,14 +129,38 @@
             // txtName
             // 
             this.txtName.AutoSize = true;
-            this.txtName.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Bold);
+            this.txtName.Font = new System.Drawing.Font("Bahnschrift", 8F, System.Drawing.FontStyle.Bold);
             this.txtName.ForeColor = System.Drawing.Color.White;
-            this.txtName.Location = new System.Drawing.Point(2, 17);
+            this.txtName.Location = new System.Drawing.Point(12, 29);
             this.txtName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(37, 19);
+            this.txtName.Size = new System.Drawing.Size(25, 13);
             this.txtName.TabIndex = 1;
             this.txtName.Text = "null";
+            // 
+            // panelMain
+            // 
+            this.panelMain.BackColor = System.Drawing.Color.White;
+            this.panelMain.Controls.Add(this.button1);
+            this.panelMain.Location = new System.Drawing.Point(158, -2);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(2);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(963, 564);
+            this.panelMain.TabIndex = 12;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button1.Font = new System.Drawing.Font("Franklin Gothic Medium", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(853, 29);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(39, 45);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // btnExit
             // 
@@ -158,13 +180,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1104, 547);
+            this.ClientSize = new System.Drawing.Size(1104, 559);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnExit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DoctorForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DoctorForm";
             this.Load += new System.EventHandler(this.DoctorForm_Load);
             this.panel1.ResumeLayout(false);
@@ -184,5 +207,6 @@
         private System.Windows.Forms.Button btnPatients;
         public System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnManage;
     }
 }
