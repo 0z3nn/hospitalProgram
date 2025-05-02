@@ -14,7 +14,7 @@ namespace HospitalProgram
     public partial class InformationForm : Form
     {
         private int userid;
-        string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
+        string connectionString = @"Data Source=DESKTOP-K0TECHD\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
 
         public InformationForm(int newuserid)
         {

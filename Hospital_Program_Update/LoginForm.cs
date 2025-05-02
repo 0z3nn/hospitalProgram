@@ -7,7 +7,7 @@ namespace HospitalProgram
 {
     public partial class LoginForm : Form
     {
-        string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;"; 
+        string connectionString = @"Data Source=DESKTOP-K0TECHD\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;"; 
         public LoginForm()
         {
             InitializeComponent();
@@ -43,9 +43,9 @@ namespace HospitalProgram
                 {
                     int userId = Convert.ToInt32(result);
 
-                    if (userId == 1 || userId == 2)
+                    if (userId == 1 || userId == 2 || userId == 3)
                     {
-                        DoctorForm doc = new DoctorForm();
+                        DoctorForm doc = new DoctorForm(userId);
                         doc.Show();
                     }
                     else

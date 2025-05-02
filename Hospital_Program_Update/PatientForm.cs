@@ -14,6 +14,7 @@ namespace HospitalProgram
     public partial class PatientForm : Form
     {
         private int userId;
+        string connectionString = @"Data Source=DESKTOP-K0TECHD\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
         public PatientForm(int useryes)
         {
             InitializeComponent();
@@ -30,8 +31,6 @@ namespace HospitalProgram
             PatientDashboard dash = new PatientDashboard(userId);
             panelMain.Controls.Clear();
             panelMain.Controls.Add(dash);
-            string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
-
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
@@ -46,7 +45,7 @@ namespace HospitalProgram
                     {
                         if (reader.Read())
                         {
-                            txtName.Text = reader["firstname"].ToString() + " " + reader["lastname"].ToString();
+                            txtName.Text = reader["firstname"].ToString() + "\n" + reader["lastname"].ToString();
                         }
                     }
                 }

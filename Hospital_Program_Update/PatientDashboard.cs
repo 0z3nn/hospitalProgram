@@ -8,7 +8,7 @@ namespace HospitalProgram
     public partial class PatientDashboard : UserControl
     {
         private int userId;
-        string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
+        string connectionString = @"Data Source=DESKTOP-K0TECHD\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
         public PatientDashboard(int currentUserId)
         {
             InitializeComponent();
@@ -53,7 +53,7 @@ namespace HospitalProgram
         private void LoadAppointments()
         {
             string query = @"
-        SELECT a.appointment_date, d.name AS doctor_name, a.symptoms, a.status
+        SELECT a.appointment_date AS DATE, d.name AS DOCTOR, a.symptoms AS SYMPTOMS, a.status AS STATUS
         FROM Appointments a
         JOIN Doctors d ON a.doctorid = d.userid";
 

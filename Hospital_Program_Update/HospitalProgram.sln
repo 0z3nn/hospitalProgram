@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalProgram", "HospitalProgram\HospitalProgram.csproj", "{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalProgram", "HospitalProgram.csproj", "{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0603FB4D-5E14-4521-B29E-F812A50B5A12}
+		SolutionGuid = {CC1A0DA5-70E3-4B42-A0D7-2F54B965D892}
 	EndGlobalSection
 EndGlobal

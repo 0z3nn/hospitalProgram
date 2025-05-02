@@ -51,9 +51,10 @@
             this.btnPatients.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPatients.Font = new System.Drawing.Font("Bahnschrift", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPatients.ForeColor = System.Drawing.Color.White;
-            this.btnPatients.Location = new System.Drawing.Point(0, 265);
+            this.btnPatients.Location = new System.Drawing.Point(0, 215);
+            this.btnPatients.Margin = new System.Windows.Forms.Padding(2);
             this.btnPatients.Name = "btnPatients";
-            this.btnPatients.Size = new System.Drawing.Size(214, 111);
+            this.btnPatients.Size = new System.Drawing.Size(160, 90);
             this.btnPatients.TabIndex = 4;
             this.btnPatients.Text = "MAKE AN APPOINTMENT";
             this.btnPatients.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -70,9 +71,10 @@
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Font = new System.Drawing.Font("Bahnschrift", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashboard.ForeColor = System.Drawing.Color.White;
-            this.btnDashboard.Location = new System.Drawing.Point(0, 133);
+            this.btnDashboard.Location = new System.Drawing.Point(0, 108);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(2);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(217, 111);
+            this.btnDashboard.Size = new System.Drawing.Size(160, 90);
             this.btnDashboard.TabIndex = 3;
             this.btnDashboard.Text = "DASHBOARD";
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -82,14 +84,15 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Bahnschrift", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Font = new System.Drawing.Font("Bahnschrift", 14F, System.Drawing.FontStyle.Bold);
             this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(54, 559);
+            this.linkLabel1.Location = new System.Drawing.Point(26, 501);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(99, 28);
+            this.linkLabel1.Size = new System.Drawing.Size(90, 23);
             this.linkLabel1.TabIndex = 2;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Sign Out";
+            this.linkLabel1.Text = "SIGN OUT";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // txtName
@@ -97,9 +100,10 @@
             this.txtName.AutoSize = true;
             this.txtName.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.ForeColor = System.Drawing.Color.White;
-            this.txtName.Location = new System.Drawing.Point(67, 29);
+            this.txtName.Location = new System.Drawing.Point(40, 23);
+            this.txtName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(44, 24);
+            this.txtName.Size = new System.Drawing.Size(37, 19);
             this.txtName.TabIndex = 1;
             this.txtName.Text = "null";
             this.txtName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -113,9 +117,10 @@
             this.panel1.Controls.Add(this.btnDashboard);
             this.panel1.Controls.Add(this.linkLabel1);
             this.panel1.Controls.Add(this.txtName);
-            this.panel1.Location = new System.Drawing.Point(-1, -3);
+            this.panel1.Location = new System.Drawing.Point(-1, -2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(203, 695);
+            this.panel1.Size = new System.Drawing.Size(152, 565);
             this.panel1.TabIndex = 1;
             // 
             // btnSettings
@@ -128,9 +133,10 @@
             this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSettings.Font = new System.Drawing.Font("Bahnschrift", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSettings.ForeColor = System.Drawing.Color.White;
-            this.btnSettings.Location = new System.Drawing.Point(0, 401);
+            this.btnSettings.Location = new System.Drawing.Point(0, 326);
+            this.btnSettings.Margin = new System.Windows.Forms.Padding(2);
             this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(214, 111);
+            this.btnSettings.Size = new System.Drawing.Size(160, 90);
             this.btnSettings.TabIndex = 6;
             this.btnSettings.Text = "SETTINGS";
             this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -142,20 +148,23 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bahnschrift", 8F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(56, 68);
+            this.label2.Location = new System.Drawing.Point(41, 68);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 17);
+            this.label2.Size = new System.Drawing.Size(62, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "WELCOME!";
             // 
             // btnExit
             // 
+            this.btnExit.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnExit.Font = new System.Drawing.Font("Franklin Gothic Medium", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(1122, 26);
+            this.btnExit.Location = new System.Drawing.Point(906, 21);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(52, 55);
+            this.btnExit.Size = new System.Drawing.Size(39, 45);
             this.btnExit.TabIndex = 9;
             this.btnExit.Text = "X";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -165,19 +174,21 @@
             // 
             this.panelMain.BackColor = System.Drawing.Color.White;
             this.panelMain.Controls.Add(this.btnExit);
-            this.panelMain.Location = new System.Drawing.Point(197, 0);
+            this.panelMain.Location = new System.Drawing.Point(148, 0);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(2);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(1215, 676);
+            this.panelMain.Size = new System.Drawing.Size(957, 549);
             this.panelMain.TabIndex = 11;
             // 
             // PatientForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1412, 673);
+            this.ClientSize = new System.Drawing.Size(1104, 547);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PatientForm";
             this.Text = "PatientForm";
             this.Load += new System.EventHandler(this.PatientForm_Load);

@@ -16,7 +16,7 @@ namespace HospitalProgram
     public partial class PatientAppointment : UserControl
     {
         private int userId;
-        string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
+        string connectionString = @"Data Source=DESKTOP-K0TECHD\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
         public PatientAppointment(int userID)
         {
             InitializeComponent();
@@ -48,27 +48,35 @@ namespace HospitalProgram
             {
                 doctorId = 2;
             }
-
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            else if (symptoms == "Fever" ||
+                     symptoms == "Rashes" ||
+                     symptoms == "Diarrhea" ||
+                     symptoms == "Abdominal Pain" ||
+                     symptoms == "Lack of Appetite")
             {
-                conn.Open();
+                doctorId = 3;
+            }
 
-                string query = @"INSERT INTO Appointments (doctorid, patientid, appointment_date, symptoms, status) 
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+
+                    string query = @"INSERT INTO Appointments (doctorid, patientid, appointment_date, symptoms, status) 
                          VALUES (@doctorid, @patientid, @appointment_date, @symptoms, @status)";
 
-                using (SqlCommand cmd = new SqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@doctorid", doctorId);
-                    cmd.Parameters.AddWithValue("@patientid", userId);
-                    cmd.Parameters.AddWithValue("@appointment_date", appointmentDate);
-                    cmd.Parameters.AddWithValue("@symptoms", symptoms);
-                    cmd.Parameters.AddWithValue("@status", "Scheduled");
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@doctorid", doctorId);
+                        cmd.Parameters.AddWithValue("@patientid", userId);
+                        cmd.Parameters.AddWithValue("@appointment_date", appointmentDate);
+                        cmd.Parameters.AddWithValue("@symptoms", symptoms);
+                        cmd.Parameters.AddWithValue("@status", "Scheduled");
 
-                    cmd.ExecuteNonQuery();
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    MessageBox.Show("Appointment scheduled successfully.");
                 }
-
-                MessageBox.Show("Appointment scheduled successfully.");
-            }
         }
 
         private void comboSymptoms_SelectedIndexChanged(object sender, EventArgs e)

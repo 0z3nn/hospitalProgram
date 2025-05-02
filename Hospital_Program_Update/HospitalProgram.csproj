@@ -47,11 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoctorDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoctorDashboard.Designer.cs">
+      <DependentUpon>DoctorDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="DoctorForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DoctorForm.Designer.cs">
       <DependentUpon>DoctorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditAppointmentPatient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditAppointmentPatient.Designer.cs">
+      <DependentUpon>EditAppointmentPatient.cs</DependentUpon>
     </Compile>
     <Compile Include="InformationForm.cs">
       <SubType>Form</SubType>
@@ -64,6 +76,18 @@
     </Compile>
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAccountPatient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManageAccountPatient.Designer.cs">
+      <DependentUpon>ManageAccountPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAppointment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManageAppointment.Designer.cs">
+      <DependentUpon>ManageAppointment.cs</DependentUpon>
     </Compile>
     <Compile Include="ManagePatientProfile.cs">
       <SubType>UserControl</SubType>
@@ -103,14 +127,26 @@
     <Compile Include="SetingsPatient.Designer.cs">
       <DependentUpon>SetingsPatient.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DoctorDashboard.resx">
+      <DependentUpon>DoctorDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DoctorForm.resx">
       <DependentUpon>DoctorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditAppointmentPatient.resx">
+      <DependentUpon>EditAppointmentPatient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InformationForm.resx">
       <DependentUpon>InformationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageAccountPatient.resx">
+      <DependentUpon>ManageAccountPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageAppointment.resx">
+      <DependentUpon>ManageAppointment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManagePatientProfile.resx">
       <DependentUpon>ManagePatientProfile.cs</DependentUpon>
