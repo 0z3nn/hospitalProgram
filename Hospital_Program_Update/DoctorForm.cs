@@ -16,7 +16,7 @@ namespace HospitalProgram
     public partial class DoctorForm : Form
     {
         private int userId;
-        string connectionString = @"Data Source=TOKYODIALECT\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
+        string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
         public DoctorForm(int userId)
         {
             InitializeComponent();
@@ -80,6 +80,13 @@ namespace HospitalProgram
             ManageDoctorAppointments mda = new ManageDoctorAppointments(userId);
             panelMain.Controls.Clear();
             panelMain.Controls.Add(mda);
+        }
+
+        private void PRESCRIPTIONS_Click(object sender, EventArgs e)
+        {
+            PrescriptioncCtrl ctrl = new PrescriptioncCtrl();
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(ctrl);
         }
     }
 }

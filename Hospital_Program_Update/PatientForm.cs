@@ -14,7 +14,7 @@ namespace HospitalProgram
     public partial class PatientForm : Form
     {
         private int userId;
-        string connectionString = @"Data Source=TOKYODIALECT\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
+        string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
         public PatientForm(int useryes)
         {
             InitializeComponent();

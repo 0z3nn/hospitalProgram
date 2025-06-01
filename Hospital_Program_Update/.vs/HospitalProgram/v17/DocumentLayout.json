@@ -1,7 +1,132 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vicer\\source\\repos\\hospitalProgram\\Hospital_Program_Update\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\repos\\Hospital_Program_Update\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|d:\\repos\\hospital_program_update\\prescriptioncctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:prescriptioncctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|d:\\repos\\hospital_program_update\\prescriptionhistoryctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:prescriptionhistoryctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|d:\\repos\\hospital_program_update\\prescriptionhistoryctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:prescriptionhistoryctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\doctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:doctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\prescriptioncctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:prescriptioncctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|d:\\repos\\hospital_program_update\\doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\manageappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:manageappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\patientdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:patientdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\patientappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:patientappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\managepatientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:managepatientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\managedoctorappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:managedoctorappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\patientdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:patientdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\setingspatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:setingspatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\manageaccountpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:manageaccountpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\editpatientinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:editpatientinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\viewpatientinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:viewpatientinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\setingspatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:setingspatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\patientappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:patientappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\managepatientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:managepatientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\managedoctorappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:managedoctorappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\manageaccountpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:manageaccountpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\informationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:informationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\doctorpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:doctorpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|D:\\repos\\Hospital_Program_Update\\doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196602FC-4889-4DA3-A74A-ADBC61B7B8F7}|HospitalProgram.csproj|solutionrelative:doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +134,383 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrescriptionHistoryCtrl.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\PrescriptionHistoryCtrl.cs",
+              "RelativeDocumentMoniker": "PrescriptionHistoryCtrl.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\PrescriptionHistoryCtrl.cs",
+              "RelativeToolTip": "PrescriptionHistoryCtrl.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T03:47:27.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrescriptionHistoryCtrl.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\PrescriptionHistoryCtrl.cs",
+              "RelativeDocumentMoniker": "PrescriptionHistoryCtrl.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\PrescriptionHistoryCtrl.cs [Design]",
+              "RelativeToolTip": "PrescriptionHistoryCtrl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T03:40:11.102Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrescriptioncCtrl.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\PrescriptioncCtrl.cs",
+              "RelativeDocumentMoniker": "PrescriptioncCtrl.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\PrescriptioncCtrl.cs",
+              "RelativeToolTip": "PrescriptioncCtrl.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:55:06.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoctorForm.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\DoctorForm.cs",
+              "RelativeDocumentMoniker": "DoctorForm.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\DoctorForm.cs",
+              "RelativeToolTip": "DoctorForm.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:06:41.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:05:49.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrescriptioncCtrl.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\PrescriptioncCtrl.cs",
+              "RelativeDocumentMoniker": "PrescriptioncCtrl.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\PrescriptioncCtrl.cs [Design]",
+              "RelativeToolTip": "PrescriptioncCtrl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:14:28.815Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorDashboard.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\DoctorDashboard.cs",
+              "RelativeDocumentMoniker": "DoctorDashboard.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\DoctorDashboard.cs [Design]",
+              "RelativeToolTip": "DoctorDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T04:07:26.904Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManageAppointment.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\ManageAppointment.cs",
+              "RelativeDocumentMoniker": "ManageAppointment.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\ManageAppointment.cs",
+              "RelativeToolTip": "ManageAppointment.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:15.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PatientDashboard.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\PatientDashboard.cs",
+              "RelativeDocumentMoniker": "PatientDashboard.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\PatientDashboard.cs [Design]",
+              "RelativeToolTip": "PatientDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:42.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PatientAppointment.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\PatientAppointment.cs",
+              "RelativeDocumentMoniker": "PatientAppointment.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\PatientAppointment.cs [Design]",
+              "RelativeToolTip": "PatientAppointment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T13:35:48.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PatientDashboard.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\PatientDashboard.cs",
+              "RelativeDocumentMoniker": "PatientDashboard.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\PatientDashboard.cs",
+              "RelativeToolTip": "PatientDashboard.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:44.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ManageDoctorAppointments.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\ManageDoctorAppointments.cs",
+              "RelativeDocumentMoniker": "ManageDoctorAppointments.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\ManageDoctorAppointments.cs [Design]",
+              "RelativeToolTip": "ManageDoctorAppointments.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:18.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManagePatientProfile.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\ManagePatientProfile.cs",
+              "RelativeDocumentMoniker": "ManagePatientProfile.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\ManagePatientProfile.cs [Design]",
+              "RelativeToolTip": "ManagePatientProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:23.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "RegisterForm.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:06:00.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SetingsPatient.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\SetingsPatient.cs",
+              "RelativeDocumentMoniker": "SetingsPatient.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\SetingsPatient.cs [Design]",
+              "RelativeToolTip": "SetingsPatient.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:05:59.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PatientForm.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\PatientForm.cs",
+              "RelativeDocumentMoniker": "PatientForm.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\PatientForm.cs [Design]",
+              "RelativeToolTip": "PatientForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:06:03.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageAccountPatient.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\ManageAccountPatient.cs",
+              "RelativeDocumentMoniker": "ManageAccountPatient.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\ManageAccountPatient.cs [Design]",
+              "RelativeToolTip": "ManageAccountPatient.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:06.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\LoginForm.cs [Design]",
+              "RelativeToolTip": "LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:00.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditPatientInformation.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\EditPatientInformation.cs",
+              "RelativeDocumentMoniker": "EditPatientInformation.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\EditPatientInformation.cs",
+              "RelativeToolTip": "EditPatientInformation.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAkwCEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:21:46.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PatientForm.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\PatientForm.cs",
+              "RelativeDocumentMoniker": "PatientForm.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\PatientForm.cs",
+              "RelativeToolTip": "PatientForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:53.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "RegisterForm.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\RegisterForm.cs",
+              "RelativeToolTip": "RegisterForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:58.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SetingsPatient.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\SetingsPatient.cs",
+              "RelativeDocumentMoniker": "SetingsPatient.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\SetingsPatient.cs",
+              "RelativeToolTip": "SetingsPatient.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:23:02.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ViewPatientInformation.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\ViewPatientInformation.cs",
+              "RelativeDocumentMoniker": "ViewPatientInformation.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\ViewPatientInformation.cs",
+              "RelativeToolTip": "ViewPatientInformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:23:13.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PatientAppointment.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\PatientAppointment.cs",
+              "RelativeDocumentMoniker": "PatientAppointment.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\PatientAppointment.cs",
+              "RelativeToolTip": "PatientAppointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:38.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ManagePatientProfile.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\ManagePatientProfile.cs",
+              "RelativeDocumentMoniker": "ManagePatientProfile.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\ManagePatientProfile.cs",
+              "RelativeToolTip": "ManagePatientProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:25.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ManageDoctorAppointments.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\ManageDoctorAppointments.cs",
+              "RelativeDocumentMoniker": "ManageDoctorAppointments.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\ManageDoctorAppointments.cs",
+              "RelativeToolTip": "ManageDoctorAppointments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:21.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ManageAccountPatient.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\ManageAccountPatient.cs",
+              "RelativeDocumentMoniker": "ManageAccountPatient.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\ManageAccountPatient.cs",
+              "RelativeToolTip": "ManageAccountPatient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:08.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:22:01.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InformationForm.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\InformationForm.cs",
+              "RelativeDocumentMoniker": "InformationForm.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\InformationForm.cs",
+              "RelativeToolTip": "InformationForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:21:53.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DoctorPatients.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\DoctorPatients.cs",
+              "RelativeDocumentMoniker": "DoctorPatients.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\DoctorPatients.cs",
+              "RelativeToolTip": "DoctorPatients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:21:37.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DoctorDashboard.cs",
+              "DocumentMoniker": "D:\\repos\\Hospital_Program_Update\\DoctorDashboard.cs",
+              "RelativeDocumentMoniker": "DoctorDashboard.cs",
+              "ToolTip": "D:\\repos\\Hospital_Program_Update\\DoctorDashboard.cs",
+              "RelativeToolTip": "DoctorDashboard.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T15:21:27.619Z",
+              "EditorCaption": ""
             }
           ]
         }

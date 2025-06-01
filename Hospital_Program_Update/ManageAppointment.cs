@@ -14,7 +14,7 @@ namespace HospitalProgram
     public partial class ManageAppointment : UserControl
     {
         private int userId;
-        string connectionString = @"Data Source=TOKYODIALECT\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
+        string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
         public ManageAppointment(int userId)
         {
             InitializeComponent();
@@ -123,6 +123,16 @@ namespace HospitalProgram
                 LoadAppointments();
                 MessageBox.Show("Appointment cancelled.");
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -125,6 +125,18 @@
     <Compile Include="PatientForm.Designer.cs">
       <DependentUpon>PatientForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PrescriptioncCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrescriptioncCtrl.Designer.cs">
+      <DependentUpon>PrescriptioncCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrescriptionHistoryCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrescriptionHistoryCtrl.Designer.cs">
+      <DependentUpon>PrescriptionHistoryCtrl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterForm.cs">
@@ -184,6 +196,12 @@
     <EmbeddedResource Include="PatientForm.resx">
       <DependentUpon>PatientForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PrescriptioncCtrl.resx">
+      <DependentUpon>PrescriptioncCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrescriptionHistoryCtrl.resx">
+      <DependentUpon>PrescriptionHistoryCtrl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -218,6 +236,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\png-transparent-close-exit-stop-button-icon-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1410611-200__1_-removebg-preview.png" />
+    <None Include="Resources\1410611-200 %281%29.png" />
+    <None Include="Resources\1410611-200.png" />
+    <None Include="Resources\th.jpg" />
+    <Content Include="th.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

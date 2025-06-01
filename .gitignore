@@ -1,0 +1,12 @@
+#ignore Visual Studio Temporary Files
+.vs/
+*.user
+*.suo
+*.vcsproj.user
+*.db
+*.obj
+*.log
+*.exe
+*.cache
+bin/
+obj/

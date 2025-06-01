@@ -8,7 +8,7 @@ namespace HospitalProgram
     public partial class PatientDashboard : UserControl
     {
         private int userId;
-        string connectionString = @"Data Source=TOKYODIALECT\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
+        string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=UserAuthDB;Integrated Security=True;";
         public PatientDashboard(int currentUserId)
         {
             InitializeComponent();
@@ -66,6 +66,11 @@ namespace HospitalProgram
 
                 dataGridView1.DataSource = dt;
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
